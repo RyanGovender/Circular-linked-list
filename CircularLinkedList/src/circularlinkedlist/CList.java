@@ -31,17 +31,7 @@ public class CList<T> implements CListInteeface<T> {
          return size;
      }
          
-     @Override
-    public void display() {
-        Node current = head;
-        //current= current.getnextPointer();
-        for(int i=0;i<7;i++)
-        {
-            System.out.println(current.getItem()+"------------- "+current.getnextPointer());
-            current=current.getnextPointer();
-        }
      
-    }
     @Override
      public void AddFront(T item)
      {
